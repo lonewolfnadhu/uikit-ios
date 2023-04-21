@@ -26,7 +26,7 @@ This is a modest project that aided me in enhancing my comprehension of UIKit on
 
 [<img height="35px" width="35px" src="https://github.com/lonewolfnadhu/UIKit-iOS/blob/main/assets/instagram.svg"/>](https://www.instagram.com/lonewolfnadhu/)
 [<img height="35px" width="35px" src="https://github.com/lonewolfnadhu/UIKit-iOS/blob/main/assets/linkedln.svg"/>](https://www.linkedin.com/in/lonewolfnadhu/)
-[<img height="35px" width="35px" src="https://github.com/lonewolfnadhu/UIKit-iOS/blob/main/assets/github.gif"/>](https://github.com/lonewolfnadhu)
+[<img height="35px" width="35px" src="https://github.com/lonewolfnadhu/UIKit-iOS/blob/main/assets/github.svg"/>](https://github.com/lonewolfnadhu)
 
 
 Made with ❤️
