@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A817878B29F3CDDA00532428 /* IamRichPoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817878A29F3CDDA00532428 /* IamRichPoorViewController.swift */; };
 		A883A9E929F2DC1C0025D23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883A9E829F2DC1C0025D23E /* AppDelegate.swift */; };
 		A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */; };
 		A883A9ED29F2DC1C0025D23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883A9EC29F2DC1C0025D23E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A817878A29F3CDDA00532428 /* IamRichPoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IamRichPoorViewController.swift; sourceTree = "<group>"; };
 		A883A9E529F2DC1C0025D23E /* UI Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A883A9E829F2DC1C0025D23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A883A9E829F2DC1C0025D23E /* AppDelegate.swift */,
 				A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */,
 				A883A9EC29F2DC1C0025D23E /* ViewController.swift */,
+				A817878A29F3CDDA00532428 /* IamRichPoorViewController.swift */,
 				A883A9EE29F2DC1C0025D23E /* Main.storyboard */,
 				A883A9F129F2DC230025D23E /* Assets.xcassets */,
 				A883A9F329F2DC230025D23E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				A883A9ED29F2DC1C0025D23E /* ViewController.swift in Sources */,
 				A883A9E929F2DC1C0025D23E /* AppDelegate.swift in Sources */,
+				A817878B29F3CDDA00532428 /* IamRichPoorViewController.swift in Sources */,
 				A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

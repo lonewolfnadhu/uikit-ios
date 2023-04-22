@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="At7-PL-Sqf">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -33,10 +33,102 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="-2"/>
+            <point key="canvasLocation" x="-6" y="-2"/>
+        </scene>
+        <!--Iam Rich Poor View Controller-->
+        <scene sceneID="ca0-dc-p2K">
+            <objects>
+                <viewController id="At7-PL-Sqf" customClass="IamRichPoorViewController" customModule="UI_Kit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hXG-D9-NQY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wWT-BK-9K4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLj-TU-Fsd" userLabel="TopContainer">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pTW-Ej-p30">
+                                                <rect key="frame" x="112.66666666666669" y="92.666666666666671" width="150" height="220.66666666666663"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yX-8n-G6y">
+                                                        <rect key="frame" x="8.6666666666666572" y="0.0" width="132.33333333333334" height="40.666666666666664"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="7hf-wh-w8N">
+                                                        <rect key="frame" x="0.0" y="70.666666666666686" width="150" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="YYF-H5-8S9"/>
+                                                            <constraint firstAttribute="height" constant="150" id="wFH-Bm-0PA"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.1647058824" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="pTW-Ej-p30" firstAttribute="centerY" secondItem="JLj-TU-Fsd" secondAttribute="centerY" id="eTL-OB-7vJ"/>
+                                            <constraint firstItem="pTW-Ej-p30" firstAttribute="centerX" secondItem="JLj-TU-Fsd" secondAttribute="centerX" id="pYC-MD-EoQ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKb-in-kLX" userLabel="BottomContainer">
+                                        <rect key="frame" x="0.0" y="406" width="375" height="406"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="hkk-NY-xK7">
+                                                <rect key="frame" x="83.666666666666686" y="80.666666666666671" width="208" height="244.66666666666663"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't ask me for Money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Za-Zt-AZG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="208" height="24"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RT-J9-lrT">
+                                                        <rect key="frame" x="36.333333333333329" y="38.999999999999943" width="135" height="40.666666666666657"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="2Ay-yY-Ddv">
+                                                        <rect key="frame" x="29" y="94.666666666666686" width="150" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="Ufv-Gl-XrH"/>
+                                                            <constraint firstAttribute="width" constant="150" id="ZEQ-0L-5aQ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.28235294117647058" green="0.49411764705882355" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="hkk-NY-xK7" firstAttribute="centerY" secondItem="iKb-in-kLX" secondAttribute="centerY" id="my3-Sr-L9d"/>
+                                            <constraint firstItem="hkk-NY-xK7" firstAttribute="centerX" secondItem="iKb-in-kLX" secondAttribute="centerX" id="suL-Mg-Md6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ou1-km-HHL"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wWT-BK-9K4" secondAttribute="trailing" id="2dY-fW-q11"/>
+                            <constraint firstItem="wWT-BK-9K4" firstAttribute="top" secondItem="hXG-D9-NQY" secondAttribute="top" id="nRE-Bg-Is5"/>
+                            <constraint firstAttribute="bottom" secondItem="wWT-BK-9K4" secondAttribute="bottom" id="rl2-gA-m8B"/>
+                            <constraint firstItem="wWT-BK-9K4" firstAttribute="leading" secondItem="hXG-D9-NQY" secondAttribute="leading" id="vyl-2c-8KP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YAP-F3-Zu2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="-2"/>
         </scene>
     </scenes>
     <resources>
+        <image name="coal" width="151" height="128"/>
+        <image name="diamond" width="257.33334350585938" height="188.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
