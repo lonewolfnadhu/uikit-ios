@@ -8,14 +8,14 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
     @IBAction func buttonAction(_ sender: UIButton) {
         let value: String = sender.titleLabel?.text ?? "0"
-        print("Button Tap: \(value)")
+        print("Value: \(value)")
     }
 }
