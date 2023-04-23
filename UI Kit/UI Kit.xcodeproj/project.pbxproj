@@ -16,6 +16,7 @@
 		A8AD2FBC29F54DB700856981 /* DiceeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2FBB29F54DB700856981 /* DiceeViewController.swift */; };
 		A8AD2FBE29F555C800856981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2FBD29F555C800856981 /* ViewController.swift */; };
 		A8AD2FC329F589BF00856981 /* Magic8BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2FC229F589BF00856981 /* Magic8BallViewController.swift */; };
+		A8AFFCEA29F59220005165DA /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFFCE929F59220005165DA /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A8AD2FBB29F54DB700856981 /* DiceeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViewController.swift; sourceTree = "<group>"; };
 		A8AD2FBD29F555C800856981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8AD2FC229F589BF00856981 /* Magic8BallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8BallViewController.swift; sourceTree = "<group>"; };
+		A8AFFCE929F59220005165DA /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,9 @@
 		A883A9E729F2DC1C0025D23E /* UI Kit */ = {
 			isa = PBXGroup;
 			children = (
+				A8AD2FBF29F5860A00856981 /* Projects */,
 				A883A9E829F2DC1C0025D23E /* AppDelegate.swift */,
 				A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */,
-				A8AD2FBF29F5860A00856981 /* Projects */,
 				A8AD2FBD29F555C800856981 /* ViewController.swift */,
 				A883A9EE29F2DC1C0025D23E /* Main.storyboard */,
 				A883A9F129F2DC230025D23E /* Assets.xcassets */,
@@ -80,6 +82,7 @@
 				A8AD2FC029F5861C00856981 /* IAmRichPoorApp */,
 				A8AD2FC129F5862C00856981 /* DiceeApp */,
 				A8AD2FC429F589CB00856981 /* Magic8BallApp */,
+				A8AFFCEB29F59229005165DA /* CalculatorApp */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -106,6 +109,14 @@
 				A8AD2FC229F589BF00856981 /* Magic8BallViewController.swift */,
 			);
 			path = Magic8BallApp;
+			sourceTree = "<group>";
+		};
+		A8AFFCEB29F59229005165DA /* CalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8AFFCE929F59220005165DA /* CalculatorViewController.swift */,
+			);
+			path = CalculatorApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				A8AD2FC329F589BF00856981 /* Magic8BallViewController.swift in Sources */,
 				A817878B29F3CDDA00532428 /* IAmRichPoorViewController.swift in Sources */,
 				A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */,
+				A8AFFCEA29F59220005165DA /* CalculatorViewController.swift in Sources */,
 				A8AD2FBC29F54DB700856981 /* DiceeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
