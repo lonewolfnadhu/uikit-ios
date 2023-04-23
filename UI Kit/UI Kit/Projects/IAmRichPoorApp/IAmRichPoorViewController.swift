@@ -9,7 +9,6 @@ import UIKit
 
 class IAmRichPoorViewController: UIViewController {
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

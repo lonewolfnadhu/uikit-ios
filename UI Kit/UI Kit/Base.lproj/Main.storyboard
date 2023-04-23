@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AjU-8W-nez">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8JS-9a-IcV">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -32,9 +32,6 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="At7-PL-Sqf" kind="presentation" id="q0k-tS-cOO"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWE-KR-RoI">
                                         <rect key="frame" x="53.333333333333336" y="71.666666666666686" width="88.333333333333314" height="41.666666666666657"/>
@@ -49,9 +46,6 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="cJF-lm-4e0" kind="presentation" id="zvP-MS-n2s"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -66,24 +60,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u9l-v2-0Hk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="-2"/>
+            <point key="canvasLocation" x="4" y="-2"/>
         </scene>
         <!--Am Rich Poor View Controller-->
         <scene sceneID="ca0-dc-p2K">
             <objects>
                 <viewController id="At7-PL-Sqf" customClass="IAmRichPoorViewController" customModule="UI_Kit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hXG-D9-NQY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wWT-BK-9K4">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLj-TU-Fsd" userLabel="TopContainer">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="377.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pTW-Ej-p30">
-                                                <rect key="frame" x="112.66666666666669" y="78.333333333333329" width="150" height="220.66666666666669"/>
+                                                <rect key="frame" x="112.66666666666669" y="92.666666666666671" width="150" height="220.66666666666663"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yX-8n-G6y">
                                                         <rect key="frame" x="8.6666666666666572" y="0.0" width="132.33333333333334" height="40.666666666666664"/>
@@ -108,10 +102,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKb-in-kLX" userLabel="BottomContainer">
-                                        <rect key="frame" x="0.0" y="377.66666666666674" width="375" height="377.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="406" width="375" height="406"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="hkk-NY-xK7">
-                                                <rect key="frame" x="83.666666666666686" y="66.3333333333333" width="208" height="244.66666666666663"/>
+                                                <rect key="frame" x="83.666666666666686" y="80.666666666666671" width="208" height="244.66666666666663"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't ask me for Money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Za-Zt-AZG">
                                                         <rect key="frame" x="0.0" y="0.0" width="208" height="24"/>
@@ -120,13 +114,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RT-J9-lrT">
-                                                        <rect key="frame" x="36.333333333333329" y="39" width="135" height="40.666666666666657"/>
+                                                        <rect key="frame" x="36.333333333333329" y="38.999999999999943" width="135" height="40.666666666666657"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="2Ay-yY-Ddv">
-                                                        <rect key="frame" x="29" y="94.666666666666629" width="150" height="150"/>
+                                                        <rect key="frame" x="29" y="94.666666666666686" width="150" height="150"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="150" id="Ufv-Gl-XrH"/>
                                                             <constraint firstAttribute="width" constant="150" id="ZEQ-0L-5aQ"/>
@@ -163,17 +157,17 @@
             <objects>
                 <viewController id="cJF-lm-4e0" customClass="DiceeViewController" customModule="UI_Kit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yla-8m-xOt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hKE-3r-Tpf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RFM-HT-I3w">
-                                <rect key="frame" x="30" y="139.66666666666666" width="315" height="127.99999999999997"/>
+                                <rect key="frame" x="30" y="168" width="315" height="128"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U3n-WJ-dpu">
-                                <rect key="frame" x="57.666666666666657" y="317.66666666666669" width="260" height="120"/>
+                                <rect key="frame" x="57.666666666666657" y="346" width="260" height="120"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="MEs-7c-hUu">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -188,7 +182,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gL-6m-esR">
-                                <rect key="frame" x="143" y="507.66666666666669" width="89.333333333333314" height="41.666666666666686"/>
+                                <rect key="frame" x="143" y="536" width="89.333333333333314" height="41.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" titleAlignment="center">
                                     <backgroundConfiguration key="background">
@@ -233,7 +227,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IxM-AN-ebw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560.8" y="-2.2167487684729066"/>
+            <point key="canvasLocation" x="1545" y="-2"/>
+        </scene>
+        <!--Magic8 Ball View Controller-->
+        <scene sceneID="L90-4v-mE7">
+            <objects>
+                <viewController id="8JS-9a-IcV" customClass="Magic8BallViewController" customModule="UI_Kit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zsS-qF-09A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask Me Anything..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cp-eY-i9c">
+                                <rect key="frame" x="52.333333333333343" y="185.33333333333334" width="270.66666666666663" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball1" translatesAutoresizingMaskIntoConstraints="NO" id="dVL-kf-Ckc">
+                                <rect key="frame" x="62.666666666666657" y="281" width="249.99999999999997" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="4N2-17-Flo"/>
+                                    <constraint firstAttribute="height" constant="250" id="ZRf-n1-CKy"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cs-Wt-oB7">
+                                <rect key="frame" x="150" y="581" width="75" height="41.666666666666629"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="ASK">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="askButtonAction:" destination="8JS-9a-IcV" eventType="touchUpInside" id="x4k-g5-CvA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aaI-Iq-PgH"/>
+                        <color key="backgroundColor" red="0.3529411764705882" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dVL-kf-Ckc" firstAttribute="top" secondItem="1Cp-eY-i9c" secondAttribute="bottom" constant="55" id="2oL-zM-dtz"/>
+                            <constraint firstItem="dVL-kf-Ckc" firstAttribute="centerX" secondItem="zsS-qF-09A" secondAttribute="centerX" id="Cb4-ps-Eca"/>
+                            <constraint firstItem="1cs-Wt-oB7" firstAttribute="top" secondItem="dVL-kf-Ckc" secondAttribute="bottom" constant="50" id="R7X-KK-sSK"/>
+                            <constraint firstItem="dVL-kf-Ckc" firstAttribute="centerY" secondItem="zsS-qF-09A" secondAttribute="centerY" id="hbi-Lw-w2G"/>
+                            <constraint firstItem="1cs-Wt-oB7" firstAttribute="centerX" secondItem="zsS-qF-09A" secondAttribute="centerX" id="ljs-6R-KTp"/>
+                            <constraint firstItem="1Cp-eY-i9c" firstAttribute="centerX" secondItem="zsS-qF-09A" secondAttribute="centerX" id="qyS-Xn-6Tn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="dVL-kf-Ckc" id="XVF-8u-so6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mn3-sq-cnO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2343" y="-2"/>
         </scene>
     </scenes>
     <resources>
@@ -241,6 +297,7 @@
         <image name="DiceSix" width="100" height="100"/>
         <image name="DiceeLogo" width="196" height="128"/>
         <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
+        <image name="ball1" width="305" height="273.66665649414062"/>
         <image name="coal" width="151" height="128"/>
         <image name="diamond" width="257.33334350585938" height="188.33332824707031"/>
         <systemColor name="systemBackgroundColor">

@@ -15,6 +15,7 @@
 		A883A9F529F2DC230025D23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A883A9F329F2DC230025D23E /* LaunchScreen.storyboard */; };
 		A8AD2FBC29F54DB700856981 /* DiceeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2FBB29F54DB700856981 /* DiceeViewController.swift */; };
 		A8AD2FBE29F555C800856981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2FBD29F555C800856981 /* ViewController.swift */; };
+		A8AD2FC329F589BF00856981 /* Magic8BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2FC229F589BF00856981 /* Magic8BallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A883A9F629F2DC230025D23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8AD2FBB29F54DB700856981 /* DiceeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViewController.swift; sourceTree = "<group>"; };
 		A8AD2FBD29F555C800856981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8AD2FC229F589BF00856981 /* Magic8BallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8BallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +64,48 @@
 			children = (
 				A883A9E829F2DC1C0025D23E /* AppDelegate.swift */,
 				A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */,
+				A8AD2FBF29F5860A00856981 /* Projects */,
 				A8AD2FBD29F555C800856981 /* ViewController.swift */,
-				A817878A29F3CDDA00532428 /* IAmRichPoorViewController.swift */,
-				A8AD2FBB29F54DB700856981 /* DiceeViewController.swift */,
 				A883A9EE29F2DC1C0025D23E /* Main.storyboard */,
 				A883A9F129F2DC230025D23E /* Assets.xcassets */,
 				A883A9F329F2DC230025D23E /* LaunchScreen.storyboard */,
 				A883A9F629F2DC230025D23E /* Info.plist */,
 			);
 			path = "UI Kit";
+			sourceTree = "<group>";
+		};
+		A8AD2FBF29F5860A00856981 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD2FC029F5861C00856981 /* IAmRichPoorApp */,
+				A8AD2FC129F5862C00856981 /* DiceeApp */,
+				A8AD2FC429F589CB00856981 /* Magic8BallApp */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		A8AD2FC029F5861C00856981 /* IAmRichPoorApp */ = {
+			isa = PBXGroup;
+			children = (
+				A817878A29F3CDDA00532428 /* IAmRichPoorViewController.swift */,
+			);
+			path = IAmRichPoorApp;
+			sourceTree = "<group>";
+		};
+		A8AD2FC129F5862C00856981 /* DiceeApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD2FBB29F54DB700856981 /* DiceeViewController.swift */,
+			);
+			path = DiceeApp;
+			sourceTree = "<group>";
+		};
+		A8AD2FC429F589CB00856981 /* Magic8BallApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD2FC229F589BF00856981 /* Magic8BallViewController.swift */,
+			);
+			path = Magic8BallApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +181,7 @@
 			files = (
 				A8AD2FBE29F555C800856981 /* ViewController.swift in Sources */,
 				A883A9E929F2DC1C0025D23E /* AppDelegate.swift in Sources */,
+				A8AD2FC329F589BF00856981 /* Magic8BallViewController.swift in Sources */,
 				A817878B29F3CDDA00532428 /* IAmRichPoorViewController.swift in Sources */,
 				A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */,
 				A8AD2FBC29F54DB700856981 /* DiceeViewController.swift in Sources */,
