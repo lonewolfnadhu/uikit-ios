@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        updateUI()
+    }
+    
+    func updateUI(){
         iamrichpoorView.tag = 1
         diceeView.tag = 2
         magic8ballView.tag = 3
@@ -57,7 +61,7 @@ class ViewController: UIViewController {
             self.performSegue(withIdentifier: "goToCalculator", sender: self)
         case 5 :
             print("select five view")
-            self.performSegue(withIdentifier: "goToXylophone", sender: self)            
+            self.performSegue(withIdentifier: "goToXylophone", sender: self)
         default:
             print("default")
         }
