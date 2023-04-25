@@ -213,7 +213,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qge-Y5-J8D">
                                                         <rect key="frame" x="5" y="5" width="325" height="50"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XylophoneIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ZDE-TZ-WFL">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BMICalculatorIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ZDE-TZ-WFL">
                                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="CsX-zv-qXW"/>
@@ -226,7 +226,7 @@
                                                                 <color key="textColor" red="0.60784313729999995" green="0.13000908489999999" blue="0.1218893602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XylophoneIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ZUT-1a-Ijc">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BMICalculatorIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ZUT-1a-Ijc">
                                                                 <rect key="frame" x="275" y="0.0" width="50" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="50" id="Aez-Ia-mX1"/>
@@ -1322,6 +1322,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BMICalculatorIcon" width="341.33334350585938" height="341.33334350585938"/>
         <image name="CalculatorIcon" width="170.66667175292969" height="170.66667175292969"/>
         <image name="DiceFour" width="100" height="100"/>
         <image name="DiceSix" width="100" height="100"/>
