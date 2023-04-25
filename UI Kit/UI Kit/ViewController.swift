@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var magic8ballView: UIView!
     @IBOutlet weak var calculatorView: UIView!
     @IBOutlet weak var xylophoneView: UIView!
-    
+    @IBOutlet weak var bmiCalculatorView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
         magic8ballView.tag = 3
         calculatorView.tag = 4
         xylophoneView.tag = 5
+        bmiCalculatorView.tag = 6
         
         iamrichpoorView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.tap(_:))))
         iamrichpoorView.isUserInteractionEnabled = true
@@ -42,6 +44,9 @@ class ViewController: UIViewController {
         
         xylophoneView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.tap(_:))))
         xylophoneView.isUserInteractionEnabled = true
+        
+        bmiCalculatorView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.tap(_:))))
+        bmiCalculatorView.isUserInteractionEnabled = true
     }
     
     @objc func tap(_ gestureRecognizer: UITapGestureRecognizer) {
@@ -62,6 +67,9 @@ class ViewController: UIViewController {
         case 5 :
             print("select five view")
             self.performSegue(withIdentifier: "goToXylophone", sender: self)
+        case 6 :
+            print("select six view")
+            self.performSegue(withIdentifier: "goToBMICalculator", sender: self)
         default:
             print("default")
         }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A817878B29F3CDDA00532428 /* IAmRichPoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817878A29F3CDDA00532428 /* IAmRichPoorViewController.swift */; };
+		A87BD8EE29F856B000B4C570 /* BMICalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD8ED29F856B000B4C570 /* BMICalculatorViewController.swift */; };
 		A883A9E929F2DC1C0025D23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883A9E829F2DC1C0025D23E /* AppDelegate.swift */; };
 		A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */; };
 		A883A9F029F2DC1C0025D23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A883A9EE29F2DC1C0025D23E /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		A817878A29F3CDDA00532428 /* IAmRichPoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmRichPoorViewController.swift; sourceTree = "<group>"; };
+		A87BD8ED29F856B000B4C570 /* BMICalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorViewController.swift; sourceTree = "<group>"; };
 		A883A9E529F2DC1C0025D23E /* UI Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A883A9E829F2DC1C0025D23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A883A9EA29F2DC1C0025D23E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A87BD8EF29F856B800B4C570 /* BMICalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				A87BD8ED29F856B000B4C570 /* BMICalculatorViewController.swift */,
+			);
+			path = BMICalculatorApp;
+			sourceTree = "<group>";
+		};
 		A883A9DC29F2DC1B0025D23E = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 				A8AD2FC429F589CB00856981 /* Magic8BallApp */,
 				A8AFFCEB29F59229005165DA /* CalculatorApp */,
 				A8AFFCEE29F59F90005165DA /* XylophoneApp */,
+				A87BD8EF29F856B800B4C570 /* BMICalculatorApp */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -241,6 +252,7 @@
 				A883A9E929F2DC1C0025D23E /* AppDelegate.swift in Sources */,
 				A8AD2FC329F589BF00856981 /* Magic8BallViewController.swift in Sources */,
 				A817878B29F3CDDA00532428 /* IAmRichPoorViewController.swift in Sources */,
+				A87BD8EE29F856B000B4C570 /* BMICalculatorViewController.swift in Sources */,
 				A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */,
 				A8AFFCED29F59F85005165DA /* XylophoneViewController.swift in Sources */,
 				A8AFFCEA29F59220005165DA /* CalculatorViewController.swift in Sources */,
