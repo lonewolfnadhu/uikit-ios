@@ -12,7 +12,7 @@ This is a modest project that aided me in enhancing my comprehension of UIKit on
 - Learn how to arrange elements using SwiftUI Stacks.
 - Learn how to add and size Image components.
 
-[<img width="230" height="500" src="https://github.com/lonewolfnadhu/UIKit-iOS/blob/main/assets/ios.svg">](https://github.com/lonewolfnadhu/UIKit-iOS)
+[<img width="230" height="500" src="https://github.com/lonewolfnadhu/UIKit-iOS/blob/main/screenshots/i-am-rich.png">](https://github.com/lonewolfnadhu/UIKit-iOS)
 
 
 <!-- Connect | START -->
