@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A817878B29F3CDDA00532428 /* IAmRichPoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817878A29F3CDDA00532428 /* IAmRichPoorViewController.swift */; };
+		A8390AE62A003AE7005C4CC1 /* TableSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8390AE52A003AE7005C4CC1 /* TableSampleViewController.swift */; };
 		A858519829F9BBD000B1CA43 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858519729F9BBD000B1CA43 /* BMI.swift */; };
 		A858519A29F9BBF100B1CA43 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858519929F9BBF100B1CA43 /* CalculatorBrain.swift */; };
 		A858519D29F9BC4100B1CA43 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858519C29F9BC4100B1CA43 /* ResultViewController.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		A817878A29F3CDDA00532428 /* IAmRichPoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmRichPoorViewController.swift; sourceTree = "<group>"; };
+		A8390AE52A003AE7005C4CC1 /* TableSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSampleViewController.swift; sourceTree = "<group>"; };
 		A858519729F9BBD000B1CA43 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		A858519929F9BBF100B1CA43 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		A858519C29F9BC4100B1CA43 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				A8AFFCEB29F59229005165DA /* CalculatorApp */,
 				A8AFFCEE29F59F90005165DA /* XylophoneApp */,
 				A87BD8EF29F856B800B4C570 /* BMICalculatorApp */,
+				A8390AE52A003AE7005C4CC1 /* TableSampleViewController.swift */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				A883A9E929F2DC1C0025D23E /* AppDelegate.swift in Sources */,
 				A8AD2FC329F589BF00856981 /* Magic8BallViewController.swift in Sources */,
 				A817878B29F3CDDA00532428 /* IAmRichPoorViewController.swift in Sources */,
+				A8390AE62A003AE7005C4CC1 /* TableSampleViewController.swift in Sources */,
 				A87BD8EE29F856B000B4C570 /* BMICalculatorViewController.swift in Sources */,
 				A858519F29F9BC5E00B1CA43 /* SecondViewController.swift in Sources */,
 				A883A9EB29F2DC1C0025D23E /* SceneDelegate.swift in Sources */,
