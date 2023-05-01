@@ -8,22 +8,32 @@
 import UIKit
 
 class TableSampleViewController: UIViewController {
-
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    let rainbow: [UIColor] = [.red, .yellow, .green, .orange, .blue, .purple, .magenta]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+}
 
-        // Do any additional setup after loading the view.
+extension TableSampleViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return rainbow.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
+        cell.backgroundColor = rainbow[indexPath.item]
+        return cell
     }
-    */
+    
+}
 
+extension TableSampleViewController: UITableViewDelegate {
+    
 }
