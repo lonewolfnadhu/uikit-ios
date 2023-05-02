@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kBr-NQ-wiC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dJ3-Ah-afG">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -1600,6 +1600,63 @@
             </objects>
             <point key="canvasLocation" x="5620" y="711"/>
         </scene>
+        <!--Home View Controller-->
+        <scene sceneID="SFu-6h-LD7">
+            <objects>
+                <viewController id="dJ3-Ah-afG" customClass="HomeViewController" customModule="UI_Kit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="med-fp-DjC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBG" translatesAutoresizingMaskIntoConstraints="NO" id="1PV-LS-TKA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMH-Qc-lNJ">
+                                <rect key="frame" x="0.0" y="203" width="375" height="609"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AMg-4Q-1oa">
+                                <rect key="frame" x="30" y="91" width="315" height="82"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dashboard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40W-3l-W24">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UI Kit training app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnY-jv-MEf">
+                                        <rect key="frame" x="0.0" y="46" width="315" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5bS-RN-cdZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1PV-LS-TKA" secondAttribute="bottom" id="6b2-Eo-rsv"/>
+                            <constraint firstAttribute="bottom" secondItem="hMH-Qc-lNJ" secondAttribute="bottom" id="6zU-ZY-RA6"/>
+                            <constraint firstItem="1PV-LS-TKA" firstAttribute="leading" secondItem="5bS-RN-cdZ" secondAttribute="leading" id="70b-WF-uCJ"/>
+                            <constraint firstItem="5bS-RN-cdZ" firstAttribute="trailing" secondItem="AMg-4Q-1oa" secondAttribute="trailing" constant="30" id="LaF-K6-JHu"/>
+                            <constraint firstItem="hMH-Qc-lNJ" firstAttribute="leading" secondItem="5bS-RN-cdZ" secondAttribute="leading" id="SSh-BJ-ih9"/>
+                            <constraint firstItem="AMg-4Q-1oa" firstAttribute="leading" secondItem="5bS-RN-cdZ" secondAttribute="leading" constant="30" id="UtB-p7-Psb"/>
+                            <constraint firstItem="hMH-Qc-lNJ" firstAttribute="height" secondItem="med-fp-DjC" secondAttribute="height" multiplier="0.75" id="aek-Rd-h4n"/>
+                            <constraint firstItem="hMH-Qc-lNJ" firstAttribute="top" secondItem="AMg-4Q-1oa" secondAttribute="bottom" constant="30" id="gqG-3V-pko"/>
+                            <constraint firstItem="1PV-LS-TKA" firstAttribute="trailing" secondItem="5bS-RN-cdZ" secondAttribute="trailing" id="hfZ-Mi-ACC"/>
+                            <constraint firstItem="hMH-Qc-lNJ" firstAttribute="trailing" secondItem="5bS-RN-cdZ" secondAttribute="trailing" id="rHf-Vt-Y5S"/>
+                            <constraint firstItem="1PV-LS-TKA" firstAttribute="top" secondItem="med-fp-DjC" secondAttribute="top" id="t9i-xH-uRn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="hMH-Qc-lNJ" id="MxJ-Xu-blK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2g-ts-mfn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-919.20000000000005" y="-2.2167487684729066"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ALm-Im-58V">
             <objects>
@@ -1628,6 +1685,7 @@
         <image name="DiceeLogo" width="196" height="128"/>
         <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
         <image name="Magic8BallIcon" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="MainBG" width="1000" height="1000"/>
         <image name="XylophoneIcon" width="341.33334350585938" height="341.33334350585938"/>
         <image name="ball1" width="305" height="273.66665649414062"/>
         <image name="calculate_background" width="375" height="812"/>
